@@ -1,51 +1,51 @@
 #simple_calculator made by Iago Manoel
 
 #Menu:
-print("______________________________")
-print("|         PY_CULATOR          |")
-print("|_____________________________|")
-print("|  version: 0.2               |")
-print("|  made by: Iago Manoel       |")
-print("|                             |")
-print("|  operações disponiveis:     |")
-print("|  a: adição                  |")
-print("|  s: subtração               |")
-print("|  m: multiplicação           |")
-print("|  d: divisão                 |")
-print("|  p: potência                |")
-print("|_____________________________|")
+print("   ______________________________")
+print("   |         PY_CULATOR          |")
+print("   |_____________________________|")
+print("   |  version: 0.2               |")
+print("   |  made by: Iago Manoel       |")
+print("   |                             |")
+print("   |  available operations:      |")
+print("   |  a: addition                |")
+print("   |  s: subtraction             |")
+print("   |  m: multiplication          |")
+print("   |  d: division                |")
+print("   |  p: potentiation            |")
+print("   |_____________________________|")
 print("")
     
 def code():
     print("  ")
     print("   ")
     
-    #number questions:
-    p = input('qual operação você quer usar? ')
-    n1 = int(input('qual o primeiro número? (da esquerda) '))
-    n2 = int(input('qual o segundo? (da direita '))
+    #questions about numbers:
+    p = input('which operation do you want to use? ')
+    n1 = int(input('whats the first number? (from left)'))
+    n2 = int(input('whats the second? (from right)'))
     print(" ")
     
-    #maths:
+    #Main structure:
     if p == "a":
-        print("conta: ",n1, "+", n2)
-        print("resultado: ", n1 + n2)
+        print("calculation: ",n1, "+", n2)
+        print("result: ", n1 + n2)
     if p == "s":
-        print("conta: ",n1, "-", n2)
-        print("resultado: ", n1 - n2)
+        print("calculation: ",n1, "-", n2)
+        print("result: ", n1 - n2)
     if p == "m":
-        print("conta: ",n1, "x", n2)
-        print("resultado: ", n1 * n2)
+        print("calculation: ",n1, "x", n2)
+        print("result: ", n1 * n2)
     if p == "d":
-        print("conta: ",n1, "÷", n2)
-        print("resultado:", n1 / n2)
+        print("calculation: ",n1, "÷", n2)
+        print("result:", n1 / n2)
     if p == "p":
-        print("conta: ",n1, "^", n2)
-        print("resultado: ", n1 ** n2)
+        print("calculation: ",n1, "^", n2)
+        print("result: ", n1 ** n2)
         
 #run the code again:
-code()
-while True:
-    again = input("quer fazer outra conta? [Y/N] ")
+    again = input("want to do another calculation?  [Y/N] ")
     if again == "y":
         code()
+        
+code()

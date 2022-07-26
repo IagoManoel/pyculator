@@ -23,3 +23,6 @@ if you press y it will start making the inputs to make another account, when it 
 
 IMPORTANT:
 maybe when doing hard math with power and multiplication, involving too high numbers, the result takes a long time to appear, so don't think the calculator has stopped.
+
+HOW TO INSTALL:
+Linux: use this command in terminal, 
